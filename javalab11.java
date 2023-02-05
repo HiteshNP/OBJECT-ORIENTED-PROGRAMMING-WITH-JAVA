@@ -48,7 +48,7 @@ class javalab11
             System.out.println(f1.exists() ? "File exists" : "File does not exist");
             System.out.println(f1.canWrite() ? "File is writeable" : "File is not writeable");
             System.out.println(f1.canRead() ? "File is readable" : "File is not readable");
-            String fileName = f1.toString();//we need to fine type of the file so we convert the file onject into string
+            String fileName = f1.toString();//we need to fine type of the file so we convert the file object into string
             int index = fileName.lastIndexOf('.');
             if(index > 0)
             {
