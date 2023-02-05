@@ -98,7 +98,7 @@ public class javalab9
     {
         try (Scanner nip = new Scanner(System.in))
         {
-            System.out.println("Enter the starting charecter to print strings");
+            System.out.println("Enter the starting character to print strings");
             char inputc=nip.next().charAt(0);
             String strc=Character.toString(inputc);//we have converted that character into string(typecasting)
             System.out.println("String starting with character "+strc);
